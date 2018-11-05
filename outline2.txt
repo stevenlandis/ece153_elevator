@@ -1,0 +1,18 @@
+timer {
+    TIC[count > 0] / count--
+    TIC[count <= 0] / TIMER_DONE
+}
+
+timer5 {
+    entry / count = 5
+}
+
+timer10 {
+    entry / count = 10
+}
+
+floor1 {
+    exit / b1 = 0
+
+    
+}
