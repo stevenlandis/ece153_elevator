@@ -1,3 +1,7 @@
+state:
+	gcc -o state_exec state.c qepn.c qhsmElevator.c
+	./state_exec
+
 brute: brute_exec
 	./brute_exec
 
