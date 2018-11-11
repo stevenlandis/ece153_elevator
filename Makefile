@@ -1,6 +1,9 @@
 state:
-	gcc -o state_exec state.c qepn.c qhsmElevator.c
+	gcc -g -o state_exec state.c qepn.c qhsmElevator.c
 	./state_exec
+
+process:
+	python3 process.py
 
 brute: brute_exec
 	./brute_exec
